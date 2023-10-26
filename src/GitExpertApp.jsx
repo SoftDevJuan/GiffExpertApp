@@ -16,7 +16,9 @@ import { GifGrid } from "./components/GifGrid";
 
     return(
         <>
+        
         <h1>GitExpertApp</h1>
+        
         {/*<button onClick={onAddCategory}>Agregar</button>*/}
         <AddCategory
          //setCategories = {setCategories}

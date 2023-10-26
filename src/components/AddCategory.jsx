@@ -20,6 +20,7 @@ export const AddCategory =({onNewCategory}) => {
    }
 
     return (
+        
         <form onSubmit={(event) => onSubmit(event)}>
             <input
             type='text'
@@ -28,6 +29,7 @@ export const AddCategory =({onNewCategory}) => {
             onChange={onInputChange}
             />
         </form>
+        
     )
 
 }
